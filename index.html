@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>TRIANGLE-TRACKER</title>
+  </head>
+  <body>
+    <div id="contain">
+    <h1>triangle-tracker</h1>
+      <ol>
+        <p>
+          Equilateral triangle.
+          both sides are equal.
+        </p>
+        <p>
+          Isosceles triangle.
+          two sides are equal.
+        </p>
+        <p>
+          Scalene triangle.
+          two sides are not equal.
+        </p>
+      </ol>
+    </div>
+    <center>
+    <p>side one</p>
+    <input type="number" name="a" id="one">
+    <p>side two</p>
+    <input type="number" name="b" id="two">
+    <p>side three</p>
+    <input type="number" name="c" id="three">
+  </center>
+  <center><br>
+  <button onClick="tracker()">Result</button>
+  <button onclick="refresh()">Reload</button>
+ </center>
+ <p id="final"></p>
+  </body>
+  <script src="script.js">
+  </script>
+</html>
